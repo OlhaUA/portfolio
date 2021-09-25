@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instagram Clone (React)</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="../default.css" />
+
+    <style type="text/css">
+      .img-container {
+        max-width: 800px;
+      }
+
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <!-- Link around dots-wrapper added after tutorial video -->
+      <a href="../index.html">
+        <div class="dots-wrapper">
+          <div id="dot-1" class="browser-dot"></div>
+          <div id="dot-2" class="browser-dot"></div>
+          <div id="dot-3" class="browser-dot"></div>
+        </div>
+      </a>
+    </div>
+
+    <div class="main-container">
+      <br />
+
+      <div class="img-container">
+        <img src="../images/instaclone-home.jpg" />
+      </div>
+
+      <h3>Instagram Clone (React)</h3>
+
+      <h5>Features of the website:</h5>
+      <ul>
+        <li>
+          - Pages within the app: login, sign up, forgot password, dashboard &
+          the user profile page
+        </li>
+        <li>
+          - Some pages are public and some are private with auth listeners
+        </li>
+        <li>
+          - Firebase Auth handles all the authentication process and Cloud
+          Firestore handles all the data
+        </li>
+        <li>- The data is retrieved using custom hooks</li>
+      </ul>
+
+      <a href="https://instagram-clone-silk.vercel.app/login" target="_blank"
+        ><h5>Live Link ➡</h5></a
+      >
+
+      <h5>Technologies:</h5>
+      <ul>
+        <li>- React (custom hooks, useContext, useState, useEffect, useRef)</li>
+        <li>- React Router</li>
+        <li>- Firebase (Firestore/auth)</li>
+        <li>- Tailwind CSS</li>
+        <li>- Lighthouse</li>
+        <li>- Vercel</li>
+      </ul>
+
+      <h5>Login Page (Public Page)</h5>
+      <div class="img-container">
+        <img src="../images/instaclone-login.jpg" />
+      </div>
+
+      <h5>Profile Page</h5>
+      <div class="img-container">
+        <img src="../images/instaclone-profile.jpg" />
+      </div>
+
+      <h4>Reset Password Page</h4>
+      <div class="img-container">
+        <img src="../images/instaclone-resetpassword.jpg" />
+      </div>
+
+      <h5>Acknowledgments:</h5>
+      <ul>
+        <li>
+          - Tips used from: Karl Hadwen (Scrimba & YouTube); freeCodeCamp;
+          Firebase documentation; React documentation; React Router
+          documentation
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+:root {
+  --mainColor: #121212;
+  --secondaryColor: #1d1d1d;
+
+  --borderColor: #c1c1c1;
+
+  --mainText: #ffffffde;
+  --secondaryText: #ffffff99;
+
+  --themeDotBorder: #82cafa;
+
+  --previewBg: #202020;
+
+  --previewShadow: #ffffff80;
+
+  --buttonColor: #82cafa;
+}
+
+a {
+  color: var(--buttonColor);
+}
+
+a:hover {
+  color: #ffe87c;
+}
+
+#settings-note {
+  color: #ffffff61;
+}
+
+.input-field:focus {
+  border-color: var(--buttonColor);
+}
+
+#preview {
+  width: 300px;
+  border: 1.5px solid var(--buttonColor);
+  background-color: var(--previewBg);
+  padding: 15px;
+  position: relative;
+}
+
+.corner {
+  border: 1.5px solid var(--buttonColor);
+  background-color: #fff;
+}
+
+.post-preview {
+  background-color: var(--previewShadow);
+}
+
+footer {
+  background-color: var(--previewBg);
+  color: var(--buttonColor);
+}
