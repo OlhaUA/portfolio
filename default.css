@@ -39,7 +39,7 @@ h6,
 strong,
 h1 span {
   color: var(--mainText);
-  font-family: 'Satisfy', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 p,

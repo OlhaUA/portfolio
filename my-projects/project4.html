@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ukrainian Ecommerce (Next.js, Strapi, Stripe)</title>
+    <title>Instagram Clone (React)</title>
 
     <meta
       name="viewport"
@@ -22,7 +22,7 @@
 
     <style type="text/css">
       .img-container {
-        max-width: 650px;
+        max-width: 800px;
       }
 
       img {
@@ -46,39 +46,63 @@
       <br />
 
       <div class="img-container">
-        <img src="../images/ecommerce1.jpg" />
+        <img src="../images/instaclone-home.jpg" />
       </div>
 
-      <h3>Ukrainian Ecommerce</h3>
+      <h3>Instagram Clone (React)</h3>
 
-      <p>Ukrainian Clothes Shop built with Next.js, Strapi and Stripe.</p>
+      <h5>Features of the website:</h5>
+      <ul>
+        <li>
+          - Pages within the app: login, sign up, forgot password, dashboard &
+          the user profile page
+        </li>
+        <li>
+          - Some pages are public and some are private with auth listeners
+        </li>
+        <li>
+          - Firebase Auth handles all the authentication process and Cloud
+          Firestore handles all the data
+        </li>
+        <li>- The data is retrieved using custom hooks</li>
+      </ul>
 
-      <a href="https://nextjs-ecommerce-frontend.vercel.app/" target="_blank"
+      <a href="https://instagram-clone-silk.vercel.app/login" target="_blank"
         ><h5>Live Link ➡</h5></a
       >
 
       <h5>Technologies:</h5>
       <ul>
-        <li>- Next.js (Static Site Generation)</li>
-        <li>- Strapi (CMS for Products and Orders)</li>
-        <li>- Stripe</li>
-        <li>- Passwordless Authentication with Magic Links</li>
+        <li>- React (custom hooks, useContext, useState, useEffect, useRef)</li>
+        <li>- React Router</li>
+        <li>- Firebase (Firestore/auth)</li>
+        <li>- Tailwind CSS</li>
+        <li>- Lighthouse</li>
         <li>- Vercel</li>
       </ul>
 
-      <h4>Stripe Checkout</h4>
+      <h5>Login Page (Public Page)</h5>
       <div class="img-container">
-        <img src="../images/e-stripe.jpg" />
+        <img src="../images/instaclone-login.jpg" />
       </div>
 
-      <h4>Product Page</h4>
+      <h5>Profile Page</h5>
       <div class="img-container">
-        <img src="../images/ecommerce2.jpg" />
+        <img src="../images/instaclone-profile.jpg" />
+      </div>
+
+      <h4>Reset Password Page</h4>
+      <div class="img-container">
+        <img src="../images/instaclone-resetpassword.jpg" />
       </div>
 
       <h5>Acknowledgments:</h5>
       <ul>
-        <li>- Tips used from: Alex the Entreprenerd; Next.js documentation</li>
+        <li>
+          - Tips used from: Karl Hadwen (Scrimba & YouTube); freeCodeCamp;
+          Firebase documentation; React documentation; React Router
+          documentation
+        </li>
       </ul>
     </div>
   </body>
